@@ -25,6 +25,8 @@ public class Employee {
 	@AgeCheck
 	private Integer age;
 	
+	private Integer departId;
+	
 	@ListValueNotNull
 	private List<String> hobbies;
 }
