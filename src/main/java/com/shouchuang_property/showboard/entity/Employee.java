@@ -25,6 +25,7 @@ public class Employee {
 	@AgeCheck
 	private Integer age;
 	
+	// departName
 	private String departName;
 	// departId
 	private Integer departId;
