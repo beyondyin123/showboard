@@ -25,6 +25,7 @@ public class Employee {
 	@AgeCheck
 	private Integer age;
 	
+	// departId
 	private Integer departId;
 	
 	@ListValueNotNull
