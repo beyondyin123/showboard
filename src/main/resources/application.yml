@@ -1,0 +1,4 @@
+#开发还是测试
+spring:
+  profiles:
+    active: dev
