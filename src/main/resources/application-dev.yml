@@ -34,3 +34,16 @@ spring:
       # 数据库连接超时时间,默认30秒，即30000
       connection-timeout: 30000
       connection-test-query: "SELECT 1"
+  redis:
+    host: 10.5.1.12
+    password: redisadmin
+    port: 6379
+    timeout: 10000
+    database: 6
+    sentinel:      master: mymaster
+      nodes:      - 10.5.1.12:26379
+      - 10.5.1.12:26380
+logging:  file:    max-size: 10MB    name: showboard.log
+    path: d:/temp
+    max-history: 7    
+      
