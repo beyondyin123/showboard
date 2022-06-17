@@ -18,7 +18,7 @@
     <properties>
         <java.version>1.8</java.version>
         <knife4j>2.0.2</knife4j>
-        <fastjson>1.2.68</fastjson>
+        <fastjson>1.2.83</fastjson>
         <mysql>5.1.46</mysql>
         <mybatis-plus>3.3.1</mybatis-plus>
         <guava>28.2-jre</guava>
@@ -184,7 +184,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.47</version>
+            <version>1.2.83</version>
         </dependency>
         <!--jsr 303-->
         <dependency>
